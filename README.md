@@ -26,13 +26,13 @@ Se o painel não aparecer no portal, confira essa permissão primeiro. No Firefo
 
 ## Recursos
 
-- **Seleção em massa**: visíveis, todas as páginas, portas USB, impressoras sem fila, por fabricante/modelo, com janela de revisão e filtros por coluna no estilo Excel.
+- **Seleção em massa**: visíveis, todas as páginas, portas USB, impressoras sem fila, por fabricante/modelo, com janela de revisão e filtros por coluna.
 - **Contabilização em lote**: status, origem (Padrão do sistema, Física e Lógica, Apenas Lógica, Apenas Física com MF/Client Collector) e forçar cor. Escolher uma origem com o status em "manter" habilita as impressoras desabilitadas na mesma gravação.
 - **Coluna Origem**: coleta sob demanda, com cache por cliente conferido pela auditoria do NDD (só relê o que mudou).
 - **Lista de séries (contrato)**: carrega `.csv`/`.txt`, compara com todas as impressoras do NDD, destaca as que estão fora da lista e as séries da lista que não existem no NDD.
-- **Exclusão em massa**: desabilita a contabilização e exclui, acompanhando a fila de liberação do servidor.
+- **Exclusão em massa**: exclui do Portal 360 o cadastro das impressoras selecionadas. As que estão com a contabilização habilitada (o NDD não permite excluí-las assim) têm a contabilização desabilitada antes, e o script aguarda o NDD liberar cada exclusão.
 - **Ambiente**: filas de impressão por impressora e janela de hosts/produtos NDD com situação de comunicação.
-- **Grade**: colunas redimensionáveis com larguras lembradas, exportação `.csv` (abre direto no Excel) e log persistente até fechar a aba.
+- **Grade**: colunas redimensionáveis com larguras lembradas, exportação `.csv` e log persistente até fechar a aba.
 
 ## Observações
 
