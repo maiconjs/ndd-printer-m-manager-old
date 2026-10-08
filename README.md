@@ -4,18 +4,27 @@ Userscript para o **NDD Print Portal 360** (`https://360.nddprint.com/printers`)
 
 ## Instalação
 
-1. Instale uma extensão de userscripts: [Tampermonkey](https://www.tampermonkey.net/) ou [Violentmonkey](https://violentmonkey.github.io/).
-2. Abra o link abaixo. A extensão mostra a tela de instalação; confirme em **Instalar**.
+1. Instale um gerenciador de userscripts no navegador:
+
+   | Navegador | Gerenciadores |
+   |---|---|
+   | Chrome, Edge e outros baseados em Chromium | [Tampermonkey](https://www.tampermonkey.net/) ou [Violentmonkey](https://violentmonkey.github.io/) |
+   | Firefox | [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/), [Tampermonkey](https://www.tampermonkey.net/) ou [Violentmonkey](https://violentmonkey.github.io/) |
+
+2. Abra o link abaixo. O gerenciador mostra a tela de instalação; confirme em **Instalar**.
 
    **[Instalar o NDD Printer M-Manager](https://raw.githubusercontent.com/maiconjs/ndd-printer-m-manager/main/ndd-printer-m-manager.user.js)**
 
 3. Acesse `https://360.nddprint.com/printers` (ou recarregue a página). O painel aparece no canto da tela.
 
-No Chrome/Edge com Tampermonkey, pode ser necessário ativar o **Modo do desenvolvedor** em `chrome://extensions` (ou "Permitir scripts de usuário" nos detalhes da extensão) para os scripts rodarem.
+### Chrome e Edge (Chromium): liberar a execução de userscripts
 
-### Atualizações
+Nas versões atuais dos navegadores baseados em Chromium, extensões como o Tampermonkey só executam scripts depois que a permissão é liberada para elas:
 
-O script declara `@updateURL`/`@downloadURL` apontando para este repositório: a extensão verifica novas versões sozinha (ou manualmente em *Verificar atualizações*). Uma versão nova só é oferecida quando o número em `@version` aumenta.
+- **Chrome / Edge 138 ou mais recente:** abra os detalhes da extensão (botão direito no ícone do Tampermonkey → **Gerenciar extensão**, ou `chrome://extensions` / `edge://extensions` → **Detalhes**) e ative **Permitir scripts de usuário** (*Allow User Scripts*). A opção é por extensão.
+- **Versões anteriores à 138, ou se a opção acima não aparecer:** ative o **Modo do desenvolvedor** no canto superior de `chrome://extensions` (ou `edge://extensions`).
+
+Se o painel não aparecer no portal, confira essa permissão primeiro.
 
 ## Recursos
 
