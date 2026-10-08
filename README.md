@@ -4,14 +4,14 @@ Userscript para o **NDD Print Portal 360** (`https://360.nddprint.com/printers`)
 
 ## Instalação
 
-1. Instale um gerenciador de userscripts no navegador:
+Use o **[Violentmonkey](https://violentmonkey.github.io/)**, que é o gerenciador validado com este script. Outros gerenciadores não são suportados: o Greasemonkey não funciona e o Tampermonkey não foi testado.
 
-   | Navegador | Gerenciadores |
-   |---|---|
-   | Chrome, Edge e outros baseados em Chromium | [Tampermonkey](https://www.tampermonkey.net/) ou [Violentmonkey](https://violentmonkey.github.io/) |
-   | Firefox | [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/), [Tampermonkey](https://www.tampermonkey.net/) ou [Violentmonkey](https://violentmonkey.github.io/) |
+1. Instale o Violentmonkey pela loja oficial do seu navegador:
+   - Chrome e outros baseados em Chromium: [Chrome Web Store](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)
+   - Microsoft Edge: [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
+   - Firefox: [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/violentmonkey/)
 
-2. Abra o link abaixo. O gerenciador mostra a tela de instalação; confirme em **Instalar**.
+2. Abra o link abaixo. O Violentmonkey mostra a tela de instalação; confirme em **Instalar**.
 
    **[Instalar o NDD Printer M-Manager](https://raw.githubusercontent.com/maiconjs/ndd-printer-m-manager/main/ndd-printer-m-manager.user.js)**
 
@@ -19,12 +19,12 @@ Userscript para o **NDD Print Portal 360** (`https://360.nddprint.com/printers`)
 
 ### Chrome e Edge (Chromium): liberar a execução de userscripts
 
-Nas versões atuais dos navegadores baseados em Chromium, extensões como o Tampermonkey só executam scripts depois que a permissão é liberada para elas:
+Nas versões atuais dos navegadores baseados em Chromium, a extensão só executa scripts depois que a permissão é liberada para ela:
 
-- **Chrome / Edge 138 ou mais recente:** abra os detalhes da extensão (botão direito no ícone do Tampermonkey → **Gerenciar extensão**, ou `chrome://extensions` / `edge://extensions` → **Detalhes**) e ative **Permitir scripts de usuário** (*Allow User Scripts*). A opção é por extensão.
+- **Chrome / Edge 138 ou mais recente:** abra os detalhes do Violentmonkey (botão direito no ícone → **Gerenciar extensão**, ou `chrome://extensions` / `edge://extensions` → **Detalhes**) e ative **Permitir scripts de usuário** (*Allow User Scripts*). A opção é por extensão.
 - **Versões anteriores à 138, ou se a opção acima não aparecer:** ative o **Modo do desenvolvedor** no canto superior de `chrome://extensions` (ou `edge://extensions`).
 
-Se o painel não aparecer no portal, confira essa permissão primeiro.
+Se o painel não aparecer no portal, confira essa permissão primeiro. No Firefox não é necessário.
 
 ## Recursos
 
