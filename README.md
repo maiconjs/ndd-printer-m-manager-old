@@ -1,12 +1,10 @@
 # NDD Printer M-Manager
 
-Userscript para o **NDD Print Portal 360** (`https://360.nddprint.com/printers`) que adiciona um painel de gestão em massa da lista de impressoras.
+Userscript para o **NDD Print Portal 360** (`https://360.nddprint.com/printers`) que adiciona um painel de gestão em massa da lista de impressoras (testado no Violentmonkey).
 
 ## Instalação
 
-Use o **[Violentmonkey](https://violentmonkey.github.io/)**, que é o gerenciador validado com este script. Outros gerenciadores não são suportados: o Greasemonkey não funciona e o Tampermonkey não foi testado.
-
-1. Instale o Violentmonkey pela loja oficial do seu navegador:
+1. Instale o **[Violentmonkey](https://violentmonkey.github.io/)** pela loja oficial do seu navegador:
    - Chrome e outros baseados em Chromium: [Chrome Web Store](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)
    - Microsoft Edge: [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
    - Firefox: [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/violentmonkey/)
